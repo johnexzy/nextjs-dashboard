@@ -19,6 +19,12 @@ const config: Config = {
         },
       },
     },
+    fontFamily: {
+      sans: ['Lusitana','sans-serif'],
+      inter: ['var(--inter)'],
+      lusitana: ['var(--lusitana)'],
+      bangers: ['var(--bangers)'],
+    },
     keyframes: {
       shimmer: {
         '100%': {
