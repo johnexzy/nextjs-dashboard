@@ -1,5 +1,5 @@
 import '@/app/ui/global.css';
-import { lusitana, bangers } from '@/app/ui/fonts';
+import { lusitana, bangers, inter } from '@/app/ui/fonts';
 export default function RootLayout({
   children,
 }: {
@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${lusitana.variable} ${bangers.variable}`}>{children}</body>
+      <body className={`${inter.variable} ${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
